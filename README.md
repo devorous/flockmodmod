@@ -4,11 +4,11 @@ This version uses [Tauri](https://tauri.app) to wrap Flockmod in a minimal nativ
 You can open the devtools and implement overrides simply by pressing **F12**.
 These overrides do not work automatically, you must open the devtools then refresh the page (ctrl+r) for them to take effect.
 Tauri leverages the builtin Webview2 browser on Windows which allows for a very small executable size as well as great performance.
-I also ended up using upx to compress the executable to an even smaller size (from 10mb to 2mb).
+I also ended up using upx to compress the executable to an even smaller size (from 10mb to 3.6mb).
 
 If you wish to build it yourself, you'll need to ensure you have rust and Node.js installed locally.
 
-I am unsure if all Windows 10 computers come packaged with the Webview2 runtime, so if you have any issues, you can install it from here:
+I am unsure if all Windows computers come packaged with the Webview2 runtime, so if you have any issues you can install it from here:
 https://developer.microsoft.com/en-us/microsoft-edge/webview2
 
 
