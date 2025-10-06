@@ -14442,7 +14442,6 @@ function setupOfflineMode(){
 
   data = {"command":"ENTERED","room":"","type":"L","mute":"N","knownproxy":"N","background":"#FFFFFF","bottomtransparency":true,"animcols":3,"animrows":3,"size":"XL","description":"","numlayers":1,"capacity":69,"lockedlayers":[],"registered":true,"you":{"name":"Anonymous","rank":"UU","muted":false,"silenced":false,"privileges":{"pundo":true,"pload":true,"mergelayer":true,"modmessageuse":true,"mute":true,"silence":true,"roommanager":true,"clearlayer":true,"kick":true,"addmod":false,"ban":false,"unbanothers":false,"seelowerips":false,"seesameips":false,"seehigherips":false,"unregisterroom":false,"changeprivileges":false,"changetools":true,"locklayers":true,"drawlockedlayers":false,"fliplayer":true,"bypasspwd":false,"roombans":false,"bypassfull":false,"manageframes":false},"tools":{"drag":true,"rotate":true,"picker":true,"selection":true,"pen":true,"eraser":true,"text":true,"line":true,"rect":true,"ellipse":true,"blend":true,"fill":true,"blur":true,"custom":true,"pixel":true},"uid":0}}
   
-  
   if (room.connected) {
     room.connected = false;
   }
