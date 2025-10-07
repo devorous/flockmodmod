@@ -1,5 +1,5 @@
 [package]
-name = "Flockmodmod"
+name = "flockmodmod"
 version = "2.0.0"
 description = "Flockmod but cooler"
 authors = ["you"]

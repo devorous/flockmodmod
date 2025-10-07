@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Flockmodmod",
+  "productName": "flockmodmod",
   "version": "2.0.0",
   "identifier": "com.flockmod.mod",
   "build": {
@@ -12,6 +12,7 @@
   "app": {
     "windows": [
       {
+        "label": "main",
         "title": "FlockmoD",
         "width": 1280,
         "height": 800,
