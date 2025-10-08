@@ -1,4 +1,7 @@
 # Flockmod app compiled with Tauri
+## Issues
+It appears that this version of Flockmod can still be automatically banned so be sure to use a VPN
+
 
 Based on the offline version of Flockmod, this updated Flockmod app can run any modified files automatically without the use of overrides.
 I have embedded the HTML files normally served from flockmod's servers directly into flockmod.js in an object called EmbeddedHTML.
