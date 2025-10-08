@@ -1,6 +1,4 @@
 # Flockmod app compiled with Tauri
-## Issues
-It appears that this version of Flockmod can still be automatically banned so be sure to use a VPN
 
 
 Based on the offline version of Flockmod, this updated Flockmod app can run any modified files automatically without the use of overrides.
@@ -12,3 +10,7 @@ The only outgoing connection is to the Flockmod websocket server which seems to 
 Tauri leverages the builtin Webview2 (edge) browser on Windows which allows for a small executable size as well as great performance.
 If you wish to build it yourself, you'll need to ensure you have rust and Node.js installed locally.
 After you clone the project and modify anything, you can just run "npm install" and "npm run tauri build" to build the .exe/installer.
+
+
+## Issues
+It appears that this version of Flockmod can still be automatically banned so be sure to use a VPN
